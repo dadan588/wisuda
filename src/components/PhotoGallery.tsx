@@ -7,19 +7,19 @@ export default function PhotoGallery() {
   const photos = [
     {
       id: 1,
-      src: "public/images/ai1.jpg",
+      src: "/images/ai1.jpg",
     },
     {
       id: 2,
-      src: "public/images/ai8.jpg",
+      src: "/images/ai8.jpg",
     },
     {
       id: 3,
-      src: "public/images/ai3.jpg",
+      src: "/images/ai3.jpg",
     },
     {
       id: 4,
-      src: "public/images/ai11.jpg",
+      src: "/images/ai11.jpg",
     },
     {
       id: 5,
@@ -27,7 +27,7 @@ export default function PhotoGallery() {
     },
     {
       id: 6,
-      src: "public/images/ai6.jpg",
+      src: "/images/ai6.jpg",
     },
   ];
 
