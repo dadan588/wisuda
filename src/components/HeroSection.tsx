@@ -8,7 +8,7 @@ export default function HeroSection() {
   
   // Ganti URL foto lo di sini (sementara)
   const [photoUrl, setPhotoUrl] = useState<string | null>(
-    "/ai1.jpeg" // sementara placeholder, nanti gue ganti dengan foto lo
+    "/images/ai1.jpeg" // sementara placeholder, nanti gue ganti dengan foto lo
   );
 
   useEffect(() => {
@@ -46,7 +46,7 @@ export default function HeroSection() {
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-yellow-300 shadow-2xl bg-gradient-to-br from-pink-100 to-yellow-100 flex items-center justify-center">
               {photoUrl ? (
                 <img
-                  src="public/images/ai5.jpg"
+                  src="/images/ai5.jpg"
                   alt="Foto Wisuda"
                   className="object-cover w-full h-full"
                 />
