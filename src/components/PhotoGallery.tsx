@@ -23,7 +23,7 @@ export default function PhotoGallery() {
     },
     {
       id: 5,
-      src: "public/images/ai7.jpg",
+      src: "/images/ai7.jpg",
     },
     {
       id: 6,
